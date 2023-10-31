@@ -5,7 +5,7 @@ FROM python:bullseye
 LABEL description = 'docker image for data science development environment'
 
 #Installing the necessary deoendencies
-RUN pip install jupyter numpy pandas matplotlib seaborn
+RUN pip install jupyter numpy matplotlib seaborn
 
 #Setting up the working directory
 WORKDIR /datascience-env
